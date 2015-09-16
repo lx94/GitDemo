@@ -163,6 +163,8 @@
 			isa = PBXGroup;
 			children = (
 				1D1F7BE01BA8FC1200AAEC1B /* LLMShare.storyboard */,
+				C7E7F1701BA914D800856796 /* LLMSharedTableViewController.h */,
+				C7E7F1711BA914D800856796 /* LLMSharedTableViewController.m */,
 			);
 			name = "分享";
 			sourceTree = "<group>";

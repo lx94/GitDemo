@@ -19,6 +19,7 @@
 		1D1F7BE31BA8FC2E00AAEC1B /* LLMDate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D1F7BE21BA8FC2E00AAEC1B /* LLMDate.storyboard */; };
 		1D1F7BE51BA8FC4D00AAEC1B /* LLMTool.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D1F7BE41BA8FC4D00AAEC1B /* LLMTool.storyboard */; };
 		C78600801BA9146A002F7605 /* LLMDateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C786007F1BA9146A002F7605 /* LLMDateTableViewController.m */; };
+		C7E7F1751BA9173000856796 /* LLMShareTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E7F1741BA9173000856796 /* LLMShareTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1D1F7BE41BA8FC4D00AAEC1B /* LLMTool.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LLMTool.storyboard; sourceTree = "<group>"; };
 		C786007E1BA9146A002F7605 /* LLMDateTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMDateTableViewController.h; sourceTree = "<group>"; };
 		C786007F1BA9146A002F7605 /* LLMDateTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMDateTableViewController.m; sourceTree = "<group>"; };
+		C7E7F1731BA9173000856796 /* LLMShareTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMShareTableViewController.h; sourceTree = "<group>"; };
+		C7E7F1741BA9173000856796 /* LLMShareTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMShareTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,8 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				1D1F7BE01BA8FC1200AAEC1B /* LLMShare.storyboard */,
-				C7E7F1701BA914D800856796 /* LLMSharedTableViewController.h */,
-				C7E7F1711BA914D800856796 /* LLMSharedTableViewController.m */,
+				C7E7F1731BA9173000856796 /* LLMShareTableViewController.h */,
+				C7E7F1741BA9173000856796 /* LLMShareTableViewController.m */,
 			);
 			name = "分享";
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C78600801BA9146A002F7605 /* LLMDateTableViewController.m in Sources */,
+				C7E7F1751BA9173000856796 /* LLMShareTableViewController.m in Sources */,
 				1D1F7BB91BA8FA5D00AAEC1B /* AppDelegate.m in Sources */,
 				1D1F7BBC1BA8FA5D00AAEC1B /* GitDemo.xcdatamodeld in Sources */,
 				1D1F7BBF1BA8FA5D00AAEC1B /* ViewController.m in Sources */,

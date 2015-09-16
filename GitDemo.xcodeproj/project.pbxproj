@@ -18,6 +18,7 @@
 		1D1F7BE11BA8FC1200AAEC1B /* LLMShare.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D1F7BE01BA8FC1200AAEC1B /* LLMShare.storyboard */; };
 		1D1F7BE31BA8FC2E00AAEC1B /* LLMDate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D1F7BE21BA8FC2E00AAEC1B /* LLMDate.storyboard */; };
 		1D1F7BE51BA8FC4D00AAEC1B /* LLMTool.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D1F7BE41BA8FC4D00AAEC1B /* LLMTool.storyboard */; };
+		C7E7F1721BA914D800856796 /* LLMSharedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E7F1711BA914D800856796 /* LLMSharedTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		1D1F7BE01BA8FC1200AAEC1B /* LLMShare.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LLMShare.storyboard; sourceTree = "<group>"; };
 		1D1F7BE21BA8FC2E00AAEC1B /* LLMDate.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LLMDate.storyboard; sourceTree = "<group>"; };
 		1D1F7BE41BA8FC4D00AAEC1B /* LLMTool.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LLMTool.storyboard; sourceTree = "<group>"; };
+		C7E7F1701BA914D800856796 /* LLMSharedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMSharedTableViewController.h; sourceTree = "<group>"; };
+		C7E7F1711BA914D800856796 /* LLMSharedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMSharedTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				1D1F7BE01BA8FC1200AAEC1B /* LLMShare.storyboard */,
+				C7E7F1701BA914D800856796 /* LLMSharedTableViewController.h */,
+				C7E7F1711BA914D800856796 /* LLMSharedTableViewController.m */,
 			);
 			name = "分享";
 			sourceTree = "<group>";
@@ -298,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7E7F1721BA914D800856796 /* LLMSharedTableViewController.m in Sources */,
 				1D1F7BB91BA8FA5D00AAEC1B /* AppDelegate.m in Sources */,
 				1D1F7BBC1BA8FA5D00AAEC1B /* GitDemo.xcdatamodeld in Sources */,
 				1D1F7BBF1BA8FA5D00AAEC1B /* ViewController.m in Sources */,
@@ -496,6 +502,7 @@
 				1D1F7BD81BA8FA5D00AAEC1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D1F7BD91BA8FA5D00AAEC1B /* Build configuration list for PBXNativeTarget "GitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				1D1F7BDB1BA8FA5D00AAEC1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
